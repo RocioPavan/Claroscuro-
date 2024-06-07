@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Top 3 Canciones Preferidas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">TOP 3</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="modoClaroBtn">Modo Claro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="modoOscuroBtn">Modo Oscuro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenedor -->
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">Mi Top 3 Canciones Preferidas</h1>
+
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="square-container">
+          <img src="img/iman.jpeg" class="img-fluid rounded" alt="Canción 1">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="square-container">
+          <img src="img/lovenever.jpeg" class="img-fluid rounded" alt="Canción 2">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="square-container">
+          <img src="img/keepmoving.jpeg" class="img-fluid rounded" alt="Canción 3">
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabla -->
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Canción</th>
+            <th scope="col">Artista</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Iman</td>
+            <td>Maria Becerra</td>
+          </tr>
+          <tr>
+            <td>Love never felt so good</td>
+            <td>Michael Jackson</td>
+          </tr>
+          <tr>
+            <td>Keep moving</td>
+            <td>Jungle</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
